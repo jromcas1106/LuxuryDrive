@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Formulario.css">
+        <link rel="icon" type="image/png" href="Imagenes/favicon.png">
+        <meta charset="utf-8"/>
+        <title>Luxury Drive</title>
+    </head>
+    <body>
+        <nav>
+            <table class="indice">
+                <tr>
+                    <th><a href="LuxuryDrive.html">Inicio</a></th>
+                    <th><a href="Catálogo.html">Catálogo</a> </th>
+                    <th><a href="Concesionarios.html">Más concesionarios</a></th>
+                    <th><a href="Presentacion.html">¿Quienes Somos?</a></th>
+                </tr>
+            </table>
+        </nav>
+        <header>
+            <img id="banner" src="Imagenes/banner pagina web.webp" alt="Imagen no disponible"><br> <br>
+        </header>
+        <main>
+            <h1>Formulario de compra:</h1>
+            <form>
+                <label for="Nombre">*Nombre:</label><br>
+                <input type="text" id="Nombre" name="Nombre" placeholder="Ingresa tu nombre" required> <br><br>
+
+                <label for="Apellidos">*Apellidos:</label><br>
+                <input type="text" id="Apellidos" name="Apellidos" placeholder="Ingresa tus Apellidos" required> <br><br>
+
+                <label for="Correo">*Correo electrónico:</label><br>
+                <input type="text" id="Correo" name="Correo" placeholder="Ingresa tu Correo electrónico" required> <br><br>
+
+                <label for="DNI">DNI:</label><br>
+                <input type="text" id="DNI" name="DNI" placeholder="Ingresa tu DNI" maxlength="9"> <br><br>
+
+                <label for="telefono">Teléfono:</label><br>
+        <input type="tel" id="telefono" name="telefono" maxlength="9" placeholder="Introduce tu número telefónico" pattern="[0-9]{9}" required><br><br>
+
+                <p>Introduce el coche que quiere comprar:</p>
+                <label for="centodieci">
+                    <input type="radio" id="centodieci" name="auto" value="bugatti_centodieci" checked> Bugatti Centodieci
+                </label><br>
+
+                <label for="Droptail">
+                    <input type="radio" id="Droptail" name="auto" value="rroyce_Droptail" checked> Rolls Royce Droptail
+                </label><br>
+
+                <label for="BoatTail">
+                    <input type="radio" id="BoatTail" name="auto" value="rroyce_BoatTail" checked> Rolls Royce BoatTail
+                </label><br>
+
+                <label for="Voiture">
+                    <input type="radio" id="Voiture" name="auto" value="bugatti_Voiture" checked> Bugatti Le Voiture Noire
+                </label><br>
+
+                <label for="centodieci">
+                    <input type="radio" id="centodieci" name="auto" value="bugatti_centodieci" checked> Bugatti Centodieci
+                </label><br>
+
+                <label for="Codalunga">
+                    <input type="radio" id="Codalunga" name="auto" value="bugatti_Codalunga" checked> Pagani Huayra Codalunga
+                </label><br> <br>
+
+                <fieldset>
+                    <legend>Extras:</legend>
+                    
+                    <label for="frenos">
+                        <input type="checkbox" id="frenos" name="extras" value="frenos_carbonoceramicos"> Frenos Carbonocerámicos
+                    </label><br>
+            
+                    <label for="llantas">
+                        <input type="checkbox" id="llantas" name="extras" value="llantas_aleacion"> Llantas de Aleación
+                    </label><br>
+            
+                    <label for="sonido">
+                        <input type="checkbox" id="sonido" name="extras" value="sistema_sonido"> Sistema de Sonido Premium
+                    </label><br>
+            
+                    <label for="interior">
+                        <input type="checkbox" id="interior" name="extras" value="interior_alcantara"> Interior en Alcántara
+                    </label><br>
+                </fieldset>
+
+                <label for="comentarios">Anotaciones específicas:<br>
+                    <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Escriba aqui si tiene alguna anotacion sobre la compra"></textarea>
+                </label><br>
+
+                <input type="reset" value="Enviar formulario">
+            </form> <br><br>
+        </main>
+
+        <footer>
+            <table id="footer">
+                <tr>
+                    <th>
+                        <a href="https://www.instagram.com/">
+                            <img src="Imagenes/instagram.png" alt="Imagen no disponible" height="30px" width="30px">
+                        </a>
+                    </th>
+                    <th>
+                        <a href="https://www.facebook.com/">
+                            <img src="Imagenes/facebook.png" alt="Imagen no disponible" height="30px" width="30px">
+                        </a>
+                    </th>
+                    <th>
+                        <a href="https://www.x.com/">
+                            <img src="Imagenes/x.png" alt="Imagen no disponible" height="30px" width="30px">
+                        </a>
+                    </th>
+                </tr>
+            </table>
+        </footer>
+    </body>
+</html>
